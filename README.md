@@ -16,6 +16,9 @@ Run
 Output is written to cache_sim_output.
 
 Examples
+Create input file:
+printf "1 3 5 1 3 1" > memory_reference_file
+
 Basic:
 ./cache_sim 4 2 memory_reference_file
 
